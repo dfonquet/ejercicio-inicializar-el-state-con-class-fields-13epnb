@@ -6,12 +6,12 @@ import './style.css';
 //class App extends Component {
 
 class App extends Component {
-  state = {name : 'Daniel'}
+  state = {name : 'Daniel'};
 
  render() {
     return (
       <div>
-        <Hello name={this.state.name} />
+        <Hello name={this.state.name}/>
         <p>
           Este componente de ejemplo es para que veas como inicializar el estado de otra forma. ¡Prueba!
         </p>
