@@ -6,7 +6,7 @@ import './style.css';
 //class App extends Component {
 
   class App extends Component {
-  state = {name : 'Daniel'};
+  state = {name : 'Daniel'}
 
  render() {
     return (
